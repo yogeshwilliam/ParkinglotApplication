@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jedis-2.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/Tomcat 9.0/lib/jedis-2.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

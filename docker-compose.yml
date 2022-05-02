@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  redis:
+    container_name: "redis"
+    image: 'redis'
+    command: [ "redis-server", "--bind", "redis", "--port", "6379" ]
+    ports:
+      - "6379:6379"
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis

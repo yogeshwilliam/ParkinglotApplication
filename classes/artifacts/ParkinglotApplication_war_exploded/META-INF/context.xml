@@ -1,0 +1,6 @@
+    <Context>
+    <Resource name="jedis/JedisPoolFactory" auth="Container"
+              type="redis.clients.jedis.JedisPool"
+              singleton="true"
+              url="redis://localhost:6379" minIdle="1" maxIdle="5" maxWaitMillis="1000"/>
+    </Context>
